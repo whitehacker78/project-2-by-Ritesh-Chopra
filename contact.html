@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>St. Andrews Institute of Technology & Management, SAITM Gurgaon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <h3>Contact Form</h3>
+    <nav>
+        <a href="index.html"><img src="images/clipart591513.png" width="10%"></a>
+        <div class="nav-link" id="navlinks">
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="index.html">  Home</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">new delhi</option>
+          <option value="canada">bihar</option>
+          <option value="usa">Haryana</option>
+        </select>
+    
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+    
+   
+    <!---footer-->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>St. Andrews Institute of Technology & Management is located in the industrial hub of India Gurgaon, Delhi (NCR). It is spread across 22 acres of lush green  campus with the globally acknowledged infrastructure.</p>
+        <div class="icon">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    <p>Made With  <i class="fa fa-heart"></i> Ritesh Chopra</p>
+
+    
+    
+    
+    
+    </section>
+
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+       function showmenu(){
+        navlinks.style.right ="0";
+       }
+       function hidemenu(){
+        navlinks.style.right="-200px";
+       }
+    </script>
+    
+</body>
+</html>
